@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/fax-sender-login" element={<Login />} />
       </Routes>
     </Router>
   );
