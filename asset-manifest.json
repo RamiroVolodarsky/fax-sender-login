@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fax-sender-login/static/css/main.2fb7251f.css",
+    "main.js": "/fax-sender-login/static/js/main.d36c0724.js",
+    "static/js/787.9bde3534.chunk.js": "/fax-sender-login/static/js/787.9bde3534.chunk.js",
+    "index.html": "/fax-sender-login/index.html",
+    "main.2fb7251f.css.map": "/fax-sender-login/static/css/main.2fb7251f.css.map",
+    "main.d36c0724.js.map": "/fax-sender-login/static/js/main.d36c0724.js.map",
+    "787.9bde3534.chunk.js.map": "/fax-sender-login/static/js/787.9bde3534.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fb7251f.css",
+    "static/js/main.d36c0724.js"
+  ]
+}
