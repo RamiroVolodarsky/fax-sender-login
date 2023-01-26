@@ -64,7 +64,7 @@ function Login() {
     });
 
     function handleSetShare() {
-        var url = `https://63d2c0b422f96602660e088e--dainty-snickerdoodle-40c61d.netlify.app/fax-app?loginId=${loginId}`;
+        var url = `https://main--eclectic-maamoul-c071fc.netlify.app/?loginId=${loginId}`;
         app.setShareUrl(url, "", "Shared App").then(() => {
             log("Set share URL", url);
         }).catch((errorcode) => {
