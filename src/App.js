@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/fax-sender-login" element={<Login />} />
+      <Routes basename="/fax-sender-login">
+        <Route path="/" element={<Login />} />
       </Routes>
     </Router>
   );
