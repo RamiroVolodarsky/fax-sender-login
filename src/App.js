@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
-      <Routes basename="/fax-sender-login">
+    <Router basename="/fax-sender-login">
+      <Routes>
         <Route path="/" element={<Login />} />
       </Routes>
     </Router>
@@ -13,3 +13,4 @@ function App() {
 }
 
 export default App;
+

@@ -64,7 +64,7 @@ function Login() {
     });
 
     function handleSetShare() {
-        var url = `https://main--eclectic-maamoul-c071fc.netlify.app/?loginId=${loginId}`;
+        var url = `https://ramirovolodarsky.github.io/fax-sender-form/?loginId=${loginId}`;
         app.setShareUrl(url, "", "Shared App").then(() => {
             log("Set share URL", url);
         }).catch((errorcode) => {
